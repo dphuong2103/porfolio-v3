@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60fa8247.css",
+    "main.js": "/static/js/main.c806bd19.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Phuong_cv.pdf": "/static/media/Phuong_cv.ae212c3b55cf81e09fe6.pdf",
+    "static/media/timelesslove.png": "/static/media/timelesslove.f0f26f4ac02e39b9e3d9.png",
+    "static/media/workouttracker.png": "/static/media/workouttracker.2f4b07d7060dab5b224f.png",
+    "static/media/chat.png": "/static/media/chat.4035b7cdb5536944504d.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/timer.png": "/static/media/timer.d24380fa5e17fc4f8015.png",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.60fa8247.css.map": "/static/css/main.60fa8247.css.map",
+    "main.c806bd19.js.map": "/static/js/main.c806bd19.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60fa8247.css",
+    "static/js/main.c806bd19.js"
+  ]
+}
