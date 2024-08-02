@@ -17,11 +17,11 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Midouz](https://github.com/dphuong2103/porfolio-v3). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Phương Trần](https://github.com/dphuong2103/porfolio-v3). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://midouz-portfolio.netlify.app/" target="_blank">Phương Trần</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 ## Features
@@ -54,5 +54,3 @@ You will find all the components used and you can edit your information accordin
 ### Show your support
 
 Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
