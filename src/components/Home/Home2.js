@@ -18,33 +18,28 @@ function Home2() {
               LET ME <span className='purple'> INTRODUCE </span> MYSELF
             </h1>
             <p className='home-about-body'>
-              I fell in love with programming and I have self learnt how to program in 2 years,
+              I am passionate about programming and have honed my skills over the past three years.
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in modern technologies like
               <i>
-                <b className='purple'> ReactJs, SQL and ASP.net API </b>
+                <b className='purple'> Next.js, React.js, Spring Boot, Docker, and SQL</b>
               </i>
+              .
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className='purple'>Web applications </b> and
-                also in areas related to <b className='purple'>Mobile applications</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className='purple'>ASP.Net</b> and
+              Whenever possible, I apply my passion for creating robust solutions using
+              <b className='purple'> Spring Boot</b> on the backend, coupled with
               <i>
                 <b className='purple'>
                   {' '}
-                  Modern Front-End Library and Frameworks
+                  modern front-end libraries and frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
-                <b className='purple'> React.js and Flutter</b>
+                <b className='purple'> Next.js and React.js</b>
               </i>
+              .
             </p>
           </Col>
           <Col md={4} className='myAvtar'>

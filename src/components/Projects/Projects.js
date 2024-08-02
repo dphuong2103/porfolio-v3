@@ -2,10 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import chat from '../../Assets/Projects/chat.png';
 import timelessLove from '../../Assets/Projects/timelesslove.png';
 import workoutTracker from '../../Assets/Projects/workouttracker.png';
 import timer from '../../Assets/Projects/timer.png';
+import countdownIcon from '../../Assets/Projects/countdown.png';
+import evChargingStationIcon from "../../Assets/Projects/ev-charging-station.png";
+import blogIcon from "../../Assets/Projects/blog.png";
+
 function Projects() {
   return (
     <Container fluid className='project-section'>
@@ -20,12 +23,21 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={chat}
+              imgPath={evChargingStationIcon}
               isBlog={false}
-              title="Let's tawk"
-              description='Chat App allows user to send and receive message (plain text, file, voice,...) in private, group chat. Manage friends and other feature '
-              ghLink='https://github.com/dphuong2103/ChatApp-FE'
-              demoLink='https://chatapp.midouz.com'
+              title="EV Charger Management"
+              description='Develop and manage the Admin Page for charger management for electric vehicles in Hong Kong and Thailand, including CRUD operations and analytics, reporting using NextJs'
+            />
+          </Col>
+
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={blogIcon}
+              isBlog={false}
+              title='Blog'
+              description='A secure, responsive blog platform with JWT authentication, dynamic content management, MDX support, and enhanced user experience features like search functionality and dark mode.'
+              ghLink='https://github.com/dphuong2103/blog'
+              demoLink='https://blog.phuongtran.site/'
             />
           </Col>
 
@@ -36,24 +48,13 @@ function Projects() {
               title='Timeless Love'
               description='An app for couples to store their dating information and memories'
               ghLink='https://github.com/dphuong2103/timelesslove'
-              demoLink=''
+              demoLink='https://play.google.com/store/apps/details?id=com.midouz.timeless_love_app&hl=vi&gl=US'
             />
           </Col>
 
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={workoutTracker}
-              isBlog={false}
-              title='Workout Tracker'
-              description='Simple workout tracker to keep track of your workout and gain better muscles '
-              ghLink='https://github.com/dphuong2103/workout-tracker'
-              demoLink='https://play.google.com/store/apps/details?id=com.midouz.workout_tracker_phone'
-            />
-          </Col>
-
-          <Col md={4} className='project-card'>
-            <ProjectCard
-              imgPath={timer}
+              imgPath={countdownIcon}
               isBlog={false}
               title='Countdown Timer'
               description='Simple countdown Timer app using plain HTML, Javascript and css'

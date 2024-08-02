@@ -13,7 +13,7 @@ function ProjectCards(props) {
         alt='card-img'
         style={{ width: '10rem', height: '10rem' }}
       />
-      <Card.Body>
+      <Card.Body className="d-flex flex-column">
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: 'justify' }}>
           {props.description}
@@ -26,10 +26,13 @@ function ProjectCards(props) {
             marginTop: 'auto',
           }}
         >
-          <Button variant='primary' href={props.ghLink} target='_blank'>
-            <BsGithub /> &nbsp;
-            {props.isBlog ? 'Blog' : 'GitHub'}
-          </Button>
+          {
+            props.ghLink && <Button variant='primary' href={props.ghLink} target='_blank'>
+              <BsGithub /> &nbsp;
+              {props.isBlog ? 'Blog' : 'GitHub'}
+            </Button>
+          }
+
           {'\n'}
           {'\n'}
 
